@@ -1,0 +1,21 @@
+.mainImage {
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.mainImage:hover {
+  transform: scale(1.05);
+}
+
+.thumbnail {
+  object-fit: cover;
+}
+
+.thumbnailButton {
+  border: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.thumbnailButton:hover {
+  border-color: var(--mantine-color-cyan-9);
+} 

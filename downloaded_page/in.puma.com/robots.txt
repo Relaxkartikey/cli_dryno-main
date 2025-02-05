@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: *srule
+Disallow: *cgid
+Disallow: *demandware
+Disallow: *from=
+Disallow: *q=
+Disallow: *start=
+Disallow: ?style=
+Disallow: ?sport=
+Disallow: ?color=
+Disallow: *team=
+Disallow: *pmax=
+Disallow: *wishlist=
+Disallow: *pmin=
+Disallow: /api/getUserLocation
+Disallow: /*/wishlist/
+Disallow: /?page=&offset
+Disallow: /?offset=&page
+
+Allow: *.js
+Allow: *.svg
+Allow: *graphql
+
+Sitemap: https://in.puma.com/assets/sitemaps/in/sitemap_index.xml
